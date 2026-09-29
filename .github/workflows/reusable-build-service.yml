@@ -46,7 +46,7 @@ env:
   # Mirror images to Huawei SWR alongside GHCR. Same image_name suffix on both.
   # Login uses HUAWEI_SWR_USERNAME / HUAWEI_SWR_PASSWORD repository secrets.
   SWR_REGISTRY: swr.cn-east-3.myhuaweicloud.com
-  SWR_NAMESPACE: kweaver-ai
+  SWR_NAMESPACE: bhzhongc
 
 jobs:
   release-version:
